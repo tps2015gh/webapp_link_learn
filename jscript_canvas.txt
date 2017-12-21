@@ -1,0 +1,7 @@
+
+Canvas Basic Tempate 
+http://jsfiddle.net/jdias/ztpBF/
+
+Generate Javascript for use with Canvase 
+http://www.htmlcanvasstudio.com/
+
