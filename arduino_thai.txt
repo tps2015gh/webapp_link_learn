@@ -4,6 +4,9 @@
 Arduino All 
 https://www.arduinoall.com/
 
+-- จอ LED ( ไม่แพง )
+https://www.arduinoall.com/category/26/lcd-led/%E0%B9%82%E0%B8%A1%E0%B8%94%E0%B8%B9%E0%B8%A5%E0%B8%88%E0%B8%AD-lcd
+
 --  pin 40 male male  
 https://www.arduinoall.com/product/241/%E0%B8%81%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%9B%E0%B8%A5%E0%B8%B2-40-pin-2-54-mm-pin-header-single-row-pin-male-header
 -- 7 segments 
