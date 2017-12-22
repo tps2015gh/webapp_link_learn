@@ -29,6 +29,20 @@ https://www.arduinoall.com/product/273/ds1302-rtc-real-time-clock-module-with-fr
 https://www.arduinoall.com/product/878/arduino-nano-3-0-mini-usb-%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%8A%E0%B8%B4%E0%B8%9F-ch340g-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%A2%E0%B8%B1%E0%B8%87%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%9A%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%B5%E0%B8%82%E0%B8%B2-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%AA%E0%B8%B2%E0%B8%A2-mini-usb
 
 
+-- Solar Cell  5.5v (0.6Watt)
+https://www.arduinoall.com/product/1468/solar-cell-solar-panels-%E0%B9%82%E0%B8%8B%E0%B8%A5%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B8%A5%E0%B9%8C-5-5v-110ma-0-6w-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94-84x55mm
+
+-- LED 
+https://www.arduinoall.com/category/23/lcd-led/led
+
+-- Distance Module 
+https://www.arduinoall.com/category/29/sensors-modules-shield/%E0%B9%80%E0%B8%8B%E0%B8%99%E0%B9%80%E0%B8%8B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%97%E0%B8%B2%E0%B8%87
+
+-- Signal Generator 
+https://www.arduinoall.com/product/1527/ne555-frequency-adjustable-pulse-generator-module
+
+
+
 
 
 Thai Elec
