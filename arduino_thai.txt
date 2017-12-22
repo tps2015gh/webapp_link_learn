@@ -25,6 +25,10 @@ https://www.arduinoall.com/product/7/%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%
 -- Clock RealTime  
 https://www.arduinoall.com/product/273/ds1302-rtc-real-time-clock-module-with-free-cr2032-3v-battery
 
+-- Arduino Nano 3.0 
+https://www.arduinoall.com/product/878/arduino-nano-3-0-mini-usb-%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%8A%E0%B8%B4%E0%B8%9F-ch340g-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%A2%E0%B8%B1%E0%B8%87%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%9A%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%B5%E0%B8%82%E0%B8%B2-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%AA%E0%B8%B2%E0%B8%A2-mini-usb
+
+
 
 
 Thai Elec
