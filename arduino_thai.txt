@@ -1,0 +1,32 @@
+
+== Shop , Thailand Only  ==  
+
+Arduino All 
+https://www.arduinoall.com/
+
+--  pin 40 male male  
+https://www.arduinoall.com/product/241/%E0%B8%81%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%9B%E0%B8%A5%E0%B8%B2-40-pin-2-54-mm-pin-header-single-row-pin-male-header
+-- 7 segments 
+https://www.arduinoall.com/category/98/led-7-segment/7-segment-1-%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81
+
+-- Relay 5v
+https://www.arduinoall.com/category/95/%E0%B9%82%E0%B8%A1%E0%B8%94%E0%B8%B9%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%94%E0%B8%A3%E0%B8%B5%E0%B9%80%E0%B8%A5%E0%B8%A2%E0%B9%8C/relay-5v
+-- Relay 9v 
+https://www.arduinoall.com/category/96/%E0%B9%82%E0%B8%A1%E0%B8%94%E0%B8%B9%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%94%E0%B8%A3%E0%B8%B5%E0%B9%80%E0%B8%A5%E0%B8%A2%E0%B9%8C/relay-9v
+-- Relay 12v 
+https://www.arduinoall.com/category/97/%E0%B9%82%E0%B8%A1%E0%B8%94%E0%B8%B9%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%94%E0%B8%A3%E0%B8%B5%E0%B9%80%E0%B8%A5%E0%B8%A2%E0%B9%8C/relay-12v
+
+-- Sensor WATER + Temperature 
+https://www.arduinoall.com/product/653/dht11-digital-temperature-and-humidity-sensor-dht11-%E0%B9%81%E0%B8%9A%E0%B8%9A-pcb-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%9F
+
+-- Jumper ผู้ ผู้ 
+https://www.arduinoall.com/product/7/%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%9F-%E0%B8%88%E0%B8%B1%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B8%AD%E0%B8%A3%E0%B9%8C-jumper-wire-%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%9E-%E0%B8%82%E0%B8%B1%E0%B9%89%E0%B8%A7-%E0%B8%9C%E0%B8%B9%E0%B9%89-%E0%B8%9C%E0%B8%B9%E0%B9%89-%E0%B8%A2%E0%B8%B2%E0%B8%A7-20cm-40-%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99
+
+-- Clock RealTime  
+https://www.arduinoall.com/product/273/ds1302-rtc-real-time-clock-module-with-free-cr2032-3v-battery
+
+
+
+Thai Elec
+https://www.facebook.com/pg/thaielecs/about/?ref=page_internal
+https://www.thaielecs.com/
