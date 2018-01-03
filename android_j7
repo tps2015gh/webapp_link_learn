@@ -1,0 +1,55 @@
+
+
+list ip address 
+
+C:\>cd C:\Users\[user1]\AppData\Local\Android\sdk\platform-tools>
+C:\Users\[user1]\AppData\Local\Android\sdk\platform-tools>
+
+>adb devices
+>adb shell 
+/ $ cd system/bin 
+/system/bin $ ls -all | more 
+/system/bin $ toybox ifconfig  | more
+/system/bin $ toybox ifconfig wlan0 
+/system/bin $ toybox ifconfig --help | more 
+
+/system/bin $ toybox     //  <----- list all toybox command  
+
+$ toybox  cal  // calendar 
+$ toybox  nc   // run netcat 
+$ toybox  whoami 
+$ toybox  vmstat
+$ toybox  netstat
+$ toybox  printenv    // print all environment   ( พบว่า Shell อยู่ที่ /system/bin/sh , display HOSTNAME,USER,TMPDIR,PATH,ANDROID_ROOT )
+$ toybox  du --help   // Disk utility 
+$ toybox  top
+$ toybox  hostname
+$ toybox  ls -all 
+$ toybox  ls --help 
+$ toybox  tar --help 
+$ toybox  tail 
+
+list host file 
+cd /system/etc/
+/system/etc/ $ ls -all | more 
+/system/etc/ $ cat hosts
+/system/etc/ $ cat gps.conf
+/system/etc/ $ cat gps.xml  | more
+
+list feature 
+/system/etc/ $ cat feature_default.xml | more
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
