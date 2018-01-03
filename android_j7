@@ -55,7 +55,7 @@ $ toybox du /sdcard/DCIM/LINE          // Line Application
 $ toybox du /sdcard/DCIM/Camera          // Camera 
 
 
-
+( NOTE : not sure , why toybox exist  , from factory or by install tmux , or busybox or else   ? ?? )
 
 
 
