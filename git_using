@@ -1,0 +1,5 @@
+
+
+Reset merge but still not push  
+https://stackoverflow.com/questions/2389361/undo-a-git-merge-that-hasnt-been-pushed-yet
+(simply use: ==>  >git reset --hard origin/master )
