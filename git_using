@@ -3,3 +3,21 @@
 Reset merge but still not push  
 https://stackoverflow.com/questions/2389361/undo-a-git-merge-that-hasnt-been-pushed-yet
 (simply use: ==>  >git reset --hard origin/master )
+Then >git pull
+
+Pull data from "remote" to "origin"  ,  current branch is "dev" 
+>git pull
+
+Pull data from "remote" with others branch "dev2" to "origin"  , current branch is "dev"
+>git pull origin dev2  
+
+Push to dev
+>git push 
+
+Change Branch dev
+> git checkout dev 
+
+Create Branch dev3 
+> git branch  dev3
+
+
