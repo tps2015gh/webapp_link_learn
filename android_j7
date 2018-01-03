@@ -40,7 +40,19 @@ list feature
 /system/etc/ $ cat feature_default.xml | more
 
 
+List and Modify SDCARD , Download  
+cd /sdcard 
+ls  -all |more 
+ls  /download 
+ls  /Pictures
 
+
+Display Summary size of directory
+$ toybox du --help  
+$ toybox du ./Android  
+$ toybox du /sdcard/DCIM
+$ toybox du /sdcard/DCIM/LINE          // Line Application 
+$ toybox du /sdcard/DCIM/Camera          // Camera 
 
 
 
