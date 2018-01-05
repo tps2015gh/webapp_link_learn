@@ -51,3 +51,12 @@ git config user.email "email@example.com" # overide global config
 #git view email config
 git config --global user.email
 git config user.email		# overide global config
+
+
+========= set user ============
+https://help.github.com/articles/setting-your-username-in-git/
+git config --global user.name "Mona Lisa" # set global 
+$ git config user.name "Mona Lisa"	 # set single repo 
+
+git config --global user.name  # view global
+git config user.name  # view single repo
