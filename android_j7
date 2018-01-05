@@ -57,6 +57,34 @@ $ toybox du /sdcard/DCIM/Camera          // Camera
 
 ( NOTE : not sure , why toybox exist  , from factory or by install tmux , or busybox or else   ? ?? )
 
+===============================================================
+
+debug device with wireless WiFi 
+https://stackoverflow.com/questions/2604727/how-can-i-connect-to-android-with-adb-over-tcp
+
+install  adbWireless ( NO root require ) in android App 
+(FullName is "ADB wireless by Henry"
+ Apps By Henry , Tested with version 1.2 
+ Lable in AppStore is "ADB Wireless (no root)"
+ Download 100,000+ ขนาดไฟล์ 235KB
+ email developer = apps.by.henry@gmail.com
+)
+
+After install adbWireless in device 
+> adb tcpip 555   
+adbWireless 
+C:\Users\[username]\AppData\Local\Android\sdk\platform-tools>adb tcpip 555   
+# for change mode
+
+device ip view in :: setting > about > phone >  status
+
+>adb connect [device ip ]    # ip for client 
+>adb connect 192.168.1.x    # ip for client ,example
+>adb device    #  must display device with ip 
+>adb shell 
+
+
+
 
 
 
