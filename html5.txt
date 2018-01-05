@@ -1,0 +1,31 @@
+
+Emmet cheat sheet 
+https://docs.emmet.io/cheat-sheet/
+
+Template of Basic HTML5 
+from  https://www.w3schools.com/html/html5_intro.asp
+===========================================================
+https://www.w3schools.com/html/html5_intro.asp
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+</head>
+
+<body>
+Content of the document......
+</body>
+
+</html>
+==============================================================
+
+Add SVG dynamically 
+https://stackoverflow.com/questions/16488884/add-svg-element-to-existing-svg-using-dom
+
+SVG https://www.w3schools.com/html/html5_svg.asp
+CANVAS   https://www.w3schools.com/html/html5_canvas.asp
+Google Map  https://www.w3schools.com/html/html_googlemaps.asp
+
+
+
