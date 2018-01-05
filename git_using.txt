@@ -35,3 +35,19 @@ git remote -v
 
 # Pushes the changes in your local repository up to the remote repository you specified as the origin
 git push origin master
+
+===========================================
+config 
+===========================================
+git config -l   # list all local and global  
+git config -e   # edit only local ??? 
+
+
+#git email setting  
+https://help.github.com/articles/setting-your-commit-email-address-in-git/
+git config --global user.email "email@example.com"
+git config user.email "email@example.com" # overide global config
+
+#git view email config
+git config --global user.email
+git config user.email		# overide global config
