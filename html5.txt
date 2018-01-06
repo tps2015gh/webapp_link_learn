@@ -33,4 +33,17 @@ SVG TExt ==> https://www.w3schools.com/graphics/svg_text.asp
 ===============================================================
 g Element  ===>  https://developer.mozilla.org/en-US/docs/Web/SVG/Element/g
 arrow marker ==>  https://developer.mozilla.org/en-US/docs/Web/SVG/Element/marker
+viewbox ==> https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox
+svg position ==> https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Positions   
+Basic shape ==> https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes
+Path and Advanced Line , Set Operation (Union Intersection)  
+                        ==>  https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths
+Transform and Coordinate ==> https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Transformations
 
+Embeded (Add ) Image ==> https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Other_content_in_SVG
+image  ==> https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/SVG_Image_Tag
+
+Free Tools !!! ==> https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Tools_for_SVG
+>> https://docs.google.com/drawings/d/1Fpa97Z9wrK5Qwt0_nD33zDSVOLG8booyL9uVqnu44Fw/edit
+>> https://inkscape.org/en/  ( Download )  
+>> http://jsxgraph.uni-bayreuth.de/wp/  ( Javascript Library for JS FrontEnd developer ) 
