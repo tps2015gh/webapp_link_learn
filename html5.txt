@@ -23,9 +23,15 @@ Content of the document......
 Add SVG dynamically 
 https://stackoverflow.com/questions/16488884/add-svg-element-to-existing-svg-using-dom
 
-SVG https://www.w3schools.com/html/html5_svg.asp
+SVG   ==>  https://www.w3schools.com/html/html5_svg.asp
 CANVAS   https://www.w3schools.com/html/html5_canvas.asp
 Google Map  https://www.w3schools.com/html/html_googlemaps.asp
 
+
+SVG TExt ==> https://www.w3schools.com/graphics/svg_text.asp  
+
+===============================================================
+g Element 
+https://developer.mozilla.org/en-US/docs/Web/SVG/Element/g
 
 
