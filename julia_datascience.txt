@@ -13,3 +13,5 @@ Top Machine Learning Projects for Julia
 https://www.kdnuggets.com/2016/08/top-machine-learning-projects-julia.html
 
 
+Julia Basic Plot Graph 
+https://julialang.org/downloads/plotting.html
