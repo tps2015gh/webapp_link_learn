@@ -1,0 +1,15 @@
+
+
+A Comprehensive Tutorial to Learn Data Science with Julia from Scratch 
+https://www.analyticsvidhya.com/blog/2017/10/comprehensive-tutorial-learn-data-science-julia-from-scratch/
+
+Machine Learning ,  Julia 
+https://juliacomputing.com/blog/2016/09/28/knn-char-recognition.html
+
+Challenges with the Popular Approach to Machine Learning , Julia 
+https://juliacomputing.com/domains/ml-and-ai.html
+
+Top Machine Learning Projects for Julia
+https://www.kdnuggets.com/2016/08/top-machine-learning-projects-julia.html
+
+
