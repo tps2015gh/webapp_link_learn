@@ -1,6 +1,6 @@
 var 
-vocab_to_thai   = 
-{
+video_links   = 
+[{
 SongName: G-Eazy x Bebe Rexha - Me, Myself & I - LYRICS [HD]
 ,URL: https://www.youtube.com/watch?v=6Zbw86Xts5Q
 ,[{anxious:'กระวนกระวาย'}
@@ -16,3 +16,12 @@ SongName: G-Eazy x Bebe Rexha - Me, Myself & I - LYRICS [HD]
 ,{solo:'เท่านั้น คนเดียว'}
 ]
 }
+
+,{
+SongName: G-Eazy x Bebe Rexha - Me, Myself & I - LYRICS [HD]
+,URL: https://www.youtube.com/watch?v=6Zbw86Xts5Q
+,[{decieve:'หลอกลวง'}
+,{blame:'ตำหนิ' }
+]
+}
+]; //END ARRAY OF VIDEO 
