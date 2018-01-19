@@ -1,0 +1,18 @@
+var 
+vocab_to_thai   = 
+{
+SongName: G-Eazy x Bebe Rexha - Me, Myself & I - LYRICS [HD]
+,URL: https://www.youtube.com/watch?v=6Zbw86Xts5Q
+,[{anxious:'กระวนกระวาย'}
+,{rush:'วิ่ง'}
+,{rage:'โกรธ'}
+,{cope:'รับมือ'}
+,{liquor:'สุรา'}
+,{liver:'ตับ'}
+,{muddy:'เต็มไปด้วยโคลน'}
+,{sipping:'จิบ'}
+,{cuddy:'ห้องครัว'}
+,{grant:'อนุญาติ'}
+,{solo:'เท่านั้น คนเดียว'}
+]
+}

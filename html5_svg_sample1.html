@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head charset="UTF-8">
+	<title></title>
+</head>
+<body>
+
+<svg width="400" height="180" xmlns="http://www.w3.org/2000/svg" >
+  <rect x="50" y="20" rx="10" ry="10" width="150" height="150"
+  style="fill:lightgreen;stroke:black;stroke-width:2;opacity:0.5" >
+</rect>
+<line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+
+</svg>
+
+<svg width="400" height="300" style="background-color:lightcyan;" xmlns="http://www.w3.org/2000/svg" version="1.1" 
+viewBox="0 0 420 420">
+  	  <defs>
+    <marker id="Triangle" viewBox="0 0 10 10" refX="1" refY="5"
+        markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" />
+    </marker>
+  </defs>
+
+  <g>
+    <rect x="0" y="0" width="100" rx="10" ry="10" height="100" fill="orange" 
+    style="fill:yellow;stroke:black;stroke-width:3;opacity:0.5"
+    ></rect>
+    <text x="0" y="50" font-family="Verdana" font-size="35" fill="blue">Hello</text>
+  </g>
+  <g>
+  	<line x1="100" y1="50" x2="190" y2="150" style="stroke:rgb(255,0,0);stroke-width:2" marker-end="url(#Triangle)" />
+  </g>
+  <g>
+    <rect x="200" y="100" width="100" rx="10" ry="10" height="100" fill="orange" 
+    style="fill:yellow;stroke:black;stroke-width:3;opacity:0.5"
+    ></rect>
+    <text x="220" y="150" font-family="Verdana" font-size="25" fill="blue">World</text>
+  </g>
+  <g>
+  <polyline points="110,190 50,80 190,120" fill="none" stroke="black" 
+      stroke-width="2" marker-end="url(#Triangle)" />
+  </g>
+</svg>
+</body>
+</html>

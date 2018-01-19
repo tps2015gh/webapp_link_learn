@@ -1,0 +1,35 @@
+=== For Julia Programming Language ===
+
+== Language Document ==
+https://docs.julialang.org/en/stable/search/?q=http
+
+Download 
+https://julialang.org/downloads/
+
+Working with Text File , read Write 
+( in windows must references file as "c:\\folder1\\text1.txt" )
+https://en.wikibooks.org/wiki/Introducing_Julia/Working_with_text_files
+
+I/O 
+https://docs.julialang.org/en/stable/stdlib/io-network/
+
+Genie Web Framework - Many Warning in Windows (Error When Run !)
+http://genieframework.com/#getting-started
+
+Escher- Web Server ( Plot Math Diagram To Web HTTP )
+https://github.com/shashi/Escher.jl
+
+Julia Web Framework (others)
+https://github.com/JuliaWeb
+
+Excel Reader ( read xlxs ) 
+https://github.com/davidanthoff/ExcelReaders.jl
+
+OpenGL 
+https://github.com/rennis250/OpenGL.jl
+
+GUI with Tk ( found Error Install in Windows10)
+https://github.com/JuliaGraphics/Tk.jl/tree/master/examples
+
+Julia Sample Book 
+https://books.google.co.th/books?id=KmRADwAAQBAJ&pg=PA311&lpg=PA311&dq=%E0%B9%88julia+open+file&source=bl&ots=8U1V9hweDX&sig=V1NPHRgAyBLS6zPAuMbHGGkMF-I&hl=th&sa=X&ved=0ahUKEwiv58Hf0M_YAhUMY48KHaAgBiIQ6AEIPjAD#v=onepage&q=%E0%B9%88julia%20open%20file&f=false

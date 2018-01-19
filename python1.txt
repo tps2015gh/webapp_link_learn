@@ -1,4 +1,13 @@
 Python 
 
 Online Editor + Sample code
+
 http://pythonfiddle.com/battleships-game-in-python/
+
+
+=== Try to install Pandas , on Windows 10  ===
+First install Anaconda (Package Management )
+https://www.anaconda.com/download/#windows
+
+
+ 

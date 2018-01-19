@@ -1,0 +1,95 @@
+
+
+list ip address 
+
+C:\>cd C:\Users\[user1]\AppData\Local\Android\sdk\platform-tools>
+C:\Users\[user1]\AppData\Local\Android\sdk\platform-tools>
+
+>adb devices
+>adb shell 
+/ $ cd system/bin 
+/system/bin $ ls -all | more 
+/system/bin $ toybox ifconfig  | more
+/system/bin $ toybox ifconfig wlan0 
+/system/bin $ toybox ifconfig --help | more 
+
+/system/bin $ toybox     //  <----- list all toybox command  
+
+$ toybox  cal  // calendar 
+$ toybox  nc   // run netcat 
+$ toybox  whoami 
+$ toybox  vmstat
+$ toybox  netstat
+$ toybox  printenv    // print all environment   ( พบว่า Shell อยู่ที่ /system/bin/sh , display HOSTNAME,USER,TMPDIR,PATH,ANDROID_ROOT )
+$ toybox  du --help   // Disk utility 
+$ toybox  top
+$ toybox  hostname
+$ toybox  ls -all 
+$ toybox  ls --help 
+$ toybox  tar --help 
+$ toybox  tail 
+
+list host file 
+cd /system/etc/
+/system/etc/ $ ls -all | more 
+/system/etc/ $ cat hosts
+/system/etc/ $ cat gps.conf
+/system/etc/ $ cat gps.xml  | more
+
+list feature 
+/system/etc/ $ cat feature_default.xml | more
+
+
+List and Modify SDCARD , Download  
+cd /sdcard 
+ls  -all |more 
+ls  /download 
+ls  /Pictures
+
+
+Display Summary size of directory
+$ toybox du --help  
+$ toybox du ./Android  
+$ toybox du /sdcard/DCIM
+$ toybox du /sdcard/DCIM/LINE          // Line Application 
+$ toybox du /sdcard/DCIM/Camera          // Camera 
+
+
+( NOTE : not sure , why toybox exist  , from factory or by install tmux , or busybox or else   ? ?? )
+
+===============================================================
+
+debug device with wireless WiFi 
+https://stackoverflow.com/questions/2604727/how-can-i-connect-to-android-with-adb-over-tcp
+
+install  adbWireless ( NO root require ) in android App 
+(FullName is "ADB wireless by Henry"
+ Apps By Henry , Tested with version 1.2 
+ Lable in AppStore is "ADB Wireless (no root)"
+ Download 100,000+ ขนาดไฟล์ 235KB
+ email developer = apps.by.henry@gmail.com
+)
+
+After install adbWireless in device 
+> adb tcpip 555   
+adbWireless 
+C:\Users\[username]\AppData\Local\Android\sdk\platform-tools>adb tcpip 555   
+# for change mode
+
+device ip view in :: setting > about > phone >  status
+
+>adb connect [device ip ]    # ip for client 
+>adb connect 192.168.1.x    # ip for client ,example
+>adb device    #  must display device with ip 
+>adb shell 
+
+
+
+
+
+
+
+
+
+
+
