@@ -1,0 +1,24 @@
+
+
+Using  
+
+https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/
+https://serverfault.com/questions/3440/some-gui-for-mklink
+
+
+Example usage 
+
+D:\php_apps>mklink /J "c:\xampp\htdocs\apps" D:\php_apps
+Junction created for c:\xampp\htdocs\apps <<===>> D:\php_apps
+
+D:\php_apps>
+
+
+
+
+
+
+
+
+
+
