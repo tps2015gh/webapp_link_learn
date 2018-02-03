@@ -1,5 +1,5 @@
 /*
-  Blink 3 LED , very simple , test variable using C array .
+  Blink
 
  
   by Thitipong  (github/tps2015gh)
@@ -18,12 +18,12 @@ void setup() {
 // the loop function runs over and over again forever
 void loop() { 
 
-int timer = 800;
+int timer = 10000; /* 10 sec */
   for(int i = 0 ; i< count ; i++){
     digitalWrite(led[i], HIGH);   // turn the LED on (HIGH is the voltage level)
     for (int j = 0 ;j < count ; j++){
       if (j != i ){
-          digitalWrite(led[j], LOW);   // turn the LED off (LOW is the voltage level)    
+          digitalWrite(led[j], LOW);   // turn the LED on (HIGH is the voltage level)    
       }
     }
     delay(timer);                       // wait for a second
