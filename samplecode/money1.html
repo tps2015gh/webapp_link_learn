@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" >
+<!-- 
+	Programmer : Thitipong Samranvanich    
+ -->
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.16/angular-resource.min.js" ></script>
+<body>
+  
+
+<div ng-app="app1" ng-controller="ctr1" ng-init="init()">
+ 
+  <p> Reference :  https://www.sitepoint.com/creating-crud-app-minutes-angulars-resource/ </p>
+
+  <p> เพิ่มข้อมูล </p>
+  อธิบาย <input name="tx" id="tx" type="text" ng-model="tx">
+  จำนวนเงิน <input type="text" ng-model="money" ng-keyup="$event.keyCode == 13 ? add() : null" >
+  <br>
+  <br>
+
+
+  <h2> รายการ </h2>
+    <table border="1" ng-init="sum=0.0 ;sumreal =0.0  "  style="width:650px;">
+    <tr ng-repeat="r in rows"   ng-init="sum=0.1" >
+        <td width="20">{{$index+1}}</td>
+        <td style="width:300px;" ng-init="$parent.sum= $parent.sum + r.amount ;$parent.sumreal= $parent.sumreal +(r.paid? r.amount:0) "  >{{r.text}}</td>
+        <td ng-if="r.amount>=0" style="width:100px;text-align: right;color:green;" 
+                  >{{r.amount | number }}</td>
+        <td ng-if="r.amount<0" style="width:100px;text-align: right;color:red;" 
+                 >{{r.amount | number }}</td>
+
+        <td style="width:100px;text-align: center;cursor:pointer;" ng-click="toggle($index)" >
+                {{ r.paid?"จ่ายแล้ว":""}} </td>         
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td style="width:100px;text-align: right;font-size:24px;"  > {{sum | number }}</td>
+        <td style="width:100px;text-align: right;font-size:24px;"  > {{sumreal2() | number }}</td>
+    </tr>
+    </table>
+
+    <h2>User</h2>
+    <table border="1" ng-init="sum=0.0 ;sumreal =0.0  "  style="width:650px;">
+    <tr ng-repeat="u in users"   ng-init="sum=0.1" >
+        <td>{{$index +1 }}</td>
+        <td>{{u.name}}</td>
+        <td>{{u.country_code}}</td>
+    </tr>
+    </table>
+    <hr>    
+    <font color=red>{{content}}</font>
+    {{rows}}
+    <hr>
+    Users is :
+    <br>
+    {{users}}
+</div>
+
+<script>
+    // https://www.sitepoint.com/creating-crud-app-minutes-angulars-resource/
+    // https://stackoverflow.com/questions/17233481/angularjs-creating-multiple-factories-for-every-endpoint
+    // ==> some https://stackoverflow.com/questions/13181406/angularjs-http-and-resource
+    var app = angular.module("app1" , ['ngResource'] );
+    app.factory('Api', function($resource) {
+        return {
+            Tr2:  $resource("money1_trans_ME.json",{}) // Note the full endpoint address
+            , Users:  $resource("users1.json",{}) // Note the full endpoint address
+        }
+    });
+    app.controller("ctr1", function($scope,Api){
+        $scope.rows = []
+        $scope.users = [] 
+
+        $scope.init  = function(){
+            console.log("INIT")
+            $scope.rows =  Api.Tr2.query()  
+            console.log("OK1")
+            $scope.users = Api.Users.query()
+            console.log("OK2")          
+            console.log("END OF INIT ");
+        }
+
+        $scope.add = function( )
+        {
+           // alert("add ")
+            var x = {}
+            x.text = $scope.tx ; 
+            $scope.tx = ""
+            x.amount = parseFloat($scope.money) ;
+            $scope.money = "";
+
+            $scope.rows.push(x);
+            var tx = document.getElementById("tx");
+            tx.focus()
+        };
+        $scope.toggle = function(idx){
+            $scope.rows[idx].paid = ! $scope.rows[idx].paid; 
+        }
+        $scope.sumreal2 = function(){
+            var sum = 0.0 ;
+            for(var i = 0 ; i < $scope.rows.length ; i ++){
+                if($scope.rows[i].paid){
+                    sum += $scope.rows[i].amount    
+                }
+            }
+            return sum ;
+        }
+
+        function a() {
+            $scope.a = "AA" 
+            return "A"
+        }
+        var b  = function(){
+            return "B" 
+        }
+    });
+</script>
+
+</body>
+</html>
