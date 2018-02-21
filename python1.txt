@@ -10,4 +10,11 @@ First install Anaconda (Package Management )
 https://www.anaconda.com/download/#windows
 
 
+=== Install pandas and Module Not Found   ====
+use 
+
+https://stackoverflow.com/questions/33481974/importerror-no-module-named-pandas
  
+pip install wheel
+pip install pandas
+
